@@ -25,7 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-baseurl: /splash/
+baseurl: /
 url: https://niksethi.com
 markdown: kramdown
 theme: minima
