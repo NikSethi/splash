@@ -1,9 +1,8 @@
 ---
 layout: post
-title: #10 The Magic of Getting Things Done
+title: "10 The Magic of Getting Things Done"
 date: 2017-09-14 11:00:00
-categories:
-tags: [creativity] [reading]
+tags: creativity reading
 ---
 Doing things is really hard. As John Mulaney puts it, “it is 100% easier not to do things than to do them.” It’s the easiest thing in the world to just not do anything. And even when you start to do something and you make progress on that thing, it doesn’t feel that great. It’s not until you finish doing that thing does the thing make you feel better. (that was the worst writing I’ve ever done, even if it was a schtick)
 
