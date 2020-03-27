@@ -1,12 +1,38 @@
 // Typography
 
+article a {
+  text-decoration: underline;
+  text-decoration-color: #8AABFF;
+}
+
+article.post a, div.tag-list a {
+  text-decoration: underline;
+  text-decoration-color: #8AABFF;
+  text-decoration-style: wavy;
+  text-decoration-skip-ink: auto;
+}
+
+.post-date {
+  line-height: 2;
+}
+
+li {
+  font-size: 1.25rem;
+}
+
+time {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
-  color: #ac4a32;
+  color: $body-color;
   position: relative;
+  font-family: $lora;
   
   @media (prefers-color-scheme: dark) {
     color: #d0f6db;
@@ -15,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2::before,h4::before,h5::before,h6::before {
     content: "#";
-    color: #ac4a32;
+    color: #101F47;
     left: -1.2em;
     top: 0;
 	position: absolute;
@@ -47,6 +73,9 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: $lora;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 ul, ol, dl {
@@ -105,8 +134,8 @@ blockquote {
   margin: 30px auto;
   font-style: italic;
   position: relative;
-  opacity: .7;
-  border-left: 3px solid #d4d4d4;
+  opacity: .9;
+  border-left: 3px solid #0E235D;
   
   @media (prefers-color-scheme: dark) {
     border-left: 3px solid #333333;
@@ -150,6 +179,7 @@ a[href^="#fn:"] {
   border: 1px solid #eee;
   border-radius: 1em;
   vertical-align: middle;
+  text-decoration: underline;
   
 @media (prefers-color-scheme: dark) {
     color: $dark;

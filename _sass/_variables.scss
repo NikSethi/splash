@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:500,500i,700,700i&display=swap');
+
 // Color scheme for light and dark modes.
 
-$light: #f76b48;
+$light: rgb(35,68,153);
 $dark: #1ba77e;
 
 // Highlighting color for code block borders and language name.
@@ -15,13 +17,15 @@ $message-red: #e03940;
 $message-purple: #953c96;
 $message-blue: #009ddc;
 
-$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$lora: "Lora", serif;
+
+$root-font-family: proxima-nova, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $code-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $root-font-size: 16px;
 $root-line-height: 1.5;
 
-$body-color: rgba(0,0,0,.8);
-$body-bg: rgba(0,0,0,.03);
+$body-color: rgb(35,68,153);
+$body-bg: rgb(255,237,214);
 $body-color-dark: hsla(0,0%,100%,.8);
 $body-bg-dark: rgba(0,0,0,.9);
 
