@@ -16,6 +16,14 @@ article.post a, div.tag-list a {
   line-height: 2;
 }
 
+label {
+  font-family: $lora;
+}
+
+input {
+  font-family: $lora;
+}
+
 li {
   font-size: 1.25rem;
 }
