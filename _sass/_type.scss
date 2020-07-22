@@ -33,10 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $body-color;
   position: relative;
   font-family: $lora;
-  
-  @media (prefers-color-scheme: dark) {
-    color: #d0f6db;
-	}
+
 }
 
 h2::before,h4::before,h5::before,h6::before {

@@ -3,7 +3,7 @@
 // Color scheme for light and dark modes.
 
 $light: rgb(35,68,153);
-$dark: rgb(255,237,214);
+$dark: rgb(35,68,153);
 
 // Highlighting color for code block borders and language name.
 
@@ -25,9 +25,9 @@ $root-font-size: 16px;
 $root-line-height: 1.5;
 
 $body-color: rgb(35,68,153);
-$body-bg: rgb(255,237,214);
-$body-color-dark: rgb(35,68,153);
-$body-bg-dark: rgb(255,237,214);
+$body-bg: #ffedd6;
+$body-color-dark: #234499;
+$body-bg-dark: #ffedd6;
 
 $large-breakpoint: 38em;
 $large-font-size: 20px;
