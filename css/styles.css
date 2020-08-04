@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:500,500i,700,700i&display=swap');
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  color: rgb(35,68,153);
+  background-color: #ffedd6;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+/*	  
+@media (prefers-color-scheme: dark) {
+  color: $body-color-dark;
+  background-color: $body-bg-dark;
+  }*/
+}
+
+.container {
+  background-color: #ffedd6;
+  padding: 1rem;
+}
+
+a {
+  color: rgb(35,68,153);
+  text-decoration: none;
+}
+
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+color: rgb(35,68,153);
+}
+/*	@media (prefers-color-scheme: dark) {
+    color: $dark;
+    }*/
+  
+
+  strong {
+    color: inherit;
+  }
+  
+/*@media (prefers-color-scheme: dark) {
+  color: $dark;
+  }*/
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+
+
+
+.container {
+  max-width: 38rem;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 90%;
+}
+
+
+
+form { 
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.email-input {
+  width: auto;
+  display: inline-block;
+}
+
+
+.formEmailButton { 
+  color: #ffedd6;
+  border: solid rgb(35,68,153);
+  background-color: rgb(35,68,153);
+}
+
+/* type */
+
+label {
+  font-family: "Lora", serif;
+}
+
+input {
+  font-family: "Lora", serif;
+}
+
+li {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+time {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  font-family: "Lora", serif;;
+
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Lora", serif;;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 10vh;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+

@@ -1,35 +1,216 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+<!DOCTYPE html>
 
-layout: page
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Splash, a newsletter </title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+	<div class="container">
 
----
-<p>Splash is a personal newsletter that I've been writing since 2017. I write about life, technology, creativity, and art through the lens of my own life. Thanks for stopping by.</p>
+		<h1> Splash</h1>
+		<p> I'm <a href="https://niksethi.com"> Nikhil</a> and I write Splash. It's a personal newsletter that I've been writing since 2017. I write about my life, technology, creativity, and art. It's been one of the most meaningful parts of my life over the last few years.  </p>
 
-<div class="post">
-	{% for post in site.posts %}
-	{% unless post.next %}
-	<h3><small>{{ post.date | date: '%B %Y' }}</small></h3>
-	{% else %}
-	{% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
-	{% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
-	{% if year != nyear %}
-	<h3><small>{{ post.date | date: '%B %Y' }}</small></h3>
-	{% endif %}
-	{% endunless %}
-    <a href="{{ post.url }}">{{ post.title }}{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a><br>
-	{% endfor %}
-</div>
+		<p>Below you can find links to every issue of Splash I have ever sent. Certain issues didn't have essays, which I've indicated in italics. I've also bolded some of my favorite essays. Thanks for stopping by!</p>
 
-<br>
+		<br>
+		<h4>Subscribe, if you'd like:</h3>
+		<form action="https://niksethi.us16.list-manage.com/subscribe/post" method="POST">
+		    <input type="hidden" name="u" value="d3fa317b2165c35df5d5be6ca">
+		    <input type="hidden" name="id" value="a105e05d80">
+			<label for="MERGE0">Email Address</label>
+				<input class="email-input" placeholder="hey@niksethi.com" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+			<input type="submit" class="formEmailButton" name="submit" value="Subscribe">
+		</form>
 
-<h3>Subscribe to see more!</h3>
+		<hr>
+			<ul class="list">
 
-<form action="https://niksethi.us16.list-manage.com/subscribe/post" method="POST">
-    <input type="hidden" name="u" value="d3fa317b2165c35df5d5be6ca">
-    <input type="hidden" name="id" value="a105e05d80">
-	<label for="MERGE0">Email Address</label>
-		<input class="email-input" placeholder="hey@niksethi.com" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
-	<input type="submit" class="formEmailButton" name="submit" value="Subscribe">
-</form>
+				<h3>July 2020</h3>
+				<li><a href="http://eepurl.com/g_FI4L">#111 - What kind of music do you like?</a></li>
+				<li><a href="http://eepurl.com/g-4MbD">#110 - I'm 23</a></li>
+				<li><a href="http://eepurl.com/g-rBNH">#109 - A Tech Origin Story</a></li>
+				<li><a href="http://eepurl.com/g9RbRL">#108 - Surrender</a></li>
+				<li><a href="http://eepurl.com/g9esDb">#107 - Fruit Company</a></li>
+
+				<h3>June 2020</h3>
+				<li><a href="http://eepurl.com/g8r2o1">#106 - Ambient Music</a></li>
+				<li><a href="http://eepurl.com/g7E5Tr">#105 - Chess</a></li>
+				<li><a href="http://eepurl.com/g6PO4r">#104 - Taste</a></li>
+				<li><a href="http://eepurl.com/g51nBT">#103 - #BlackLivesMatter</a>
+
+				<h3>May 2020</h3>
+				<li><a href="http://eepurl.com/g4_MAj">#102 - "Adulting"</a>
+				<li><strong><a href="http://eepurl.com/g4m5lL">#101 - Reflecting on 100 Editions</a></strong>
+				<li><strong><a href="http://eepurl.com/g3t78z">#100 - Book Club</a></strong>
+				<li><a href="http://eepurl.com/g2BXYL">#99 - Warrior Spirit</a>
+
+				<h3>April 2020</h3>
+				<li><a href="http://eepurl.com/g0RcC5">#98 - Drops of the Week</a>
+				<li><strong><a href="http://eepurl.com/gZ3ruL">#97 - Knowledge</a></strong>
+				<li><a href="http://eepurl.com/gZgDWv">#96 - walking</a>
+				<li><a href="http://eepurl.com/gYuCl5">#95 - Old is New</a>
+
+				<h3>March 2020</h3>
+				<li><a href="http://eepurl.com/gXFuy9">#94 - love in the time of coronavirus</a>
+				<li><a href="http://eepurl.com/gVV4pL">#93 - sleepy</a>
+
+				<h3>February 2020</h3>
+				<li><a href="http://eepurl.com/gTEM8D">#92 - iFauxne</a>
+				<li><a href="https://mailchi.mp/007e959776d3/splash-no-91-flake">#91 - flake</a>
+
+				<h3>November 2019</h3>
+				<li><a href="https://mailchi.mp/4218075964db/splash-no-90">#90 - Art for art's sake</a>
+
+				<h3>October 2019</h3>
+				<li><strong><a href="https://mailchi.mp/34cafd32774d/splash-no-89">#89 - Origin Story</a></strong>
+
+				<h3>September 2019</h3>
+				<li><a href="https://mailchi.mp/0be7e87d9d73/splash-no-88">#88 - Homesick</a>
+				<li><a href="https://mailchi.mp/3d08fac28261/splash-no-87">#87 - Bon Iver</a>
+				<li><a href="https://mailchi.mp/1fe95180d044/splash-no-86">#86 - Week 12</a>
+
+				<h3>July 2019</h3>
+				<li><a href="https://mailchi.mp/06803a25fd99/splash-no-85">#85 - Week 4</a>
+
+				<h3>June 2019</h3>
+				<li><strong><a href="https://mailchi.mp/cf34c2da483a/splash-no-84">#84 - Indian-American</a></strong>
+
+				<h3>May 2019</h3>
+				<li><a href="https://mailchi.mp/4562a0c7c5d5/splash-no-83">#83 - A New Chapter</a>
+				<li><a href="https://mailchi.mp/ef7af17a7077/splash-no-82">#82 - Graduation</a>
+
+				<h3>April 2019</h3>
+				<li><a href="https://mailchi.mp/2f944e2d48ab/splash-no-81">#81 - A New Connection</a>
+
+				<h3>March 2019</h3>
+				<li><a href="https://mailchi.mp/9777fb5d5277/splash-no-80">#80 - Flight</a>
+
+				<h3>February 2019</h3>
+				<li><a href="https://mailchi.mp/b7e8db0de717/splash-no-79">#79 - Maps</a>
+				<li><strong><a href="https://mailchi.mp/400b65775215/splash-no-78">#78 - How to Start a Newsletter</a></strong>
+
+				<h3>January 2019</h3>
+				<li><a href="https://mailchi.mp/f919e995a768/splash-no-77">#77 - Hey Everyone! <em>(No Essay)</em></a>
+				<li><strong><a href="https://mailchi.mp/9ed011c9d586/splash-no-76">#76 - Nana</a></strong>
+				<li><a href="https://mailchi.mp/923651a9201e/splash-no-75">#75 - What do you want to be when you grow up?</a>
+				<li><a href="https://mailchi.mp/c2047e0db817/splash-no-74">#74 - What do I really want?</a>
+				<li><a href="https://mailchi.mp/2ce89e64ce60/splash-no-73">#73 - 2019</a>
+
+				<h3>December 2018</h3>
+				<li><a href="https://mailchi.mp/cbefc920a655/splash-no-72">#72 - How I Read 50 Books This Year and You Can Too!</a>
+				<li><a href="https://mailchi.mp/3a2964d9ca34/splash-no-71">#71 - Satisficing</a>
+
+
+				<h3>November 2018</h3>
+				<li><a href="https://mailchi.mp/5c6b8a5013df/splash-no-70">#70 - Hey everyone! <em>(No Essay)</em></a>
+				<li><strong><a href="https://mailchi.mp/520553c65054/splash-no-69">#69 - LMS for a TBH</a></strong>
+				<li><a href="https://mailchi.mp/dd034e9e389c/splash-no-68">#68 - Shy Boy</a>
+
+				<h3>October 2018</h3>
+				<li><a href="https://mailchi.mp/ac7406ecb650/splash-no-67">#67 - Slow Writing?</a>
+				<li><a href="https://mailchi.mp/979bf2ec66fe/splash-no-66">#66 - Mountains</a>
+				<li><a href="https://mailchi.mp/c3b68c66e3d0/splash-no-65">#65 - Make Yourself Useful</a>
+				<li><a href="https://mailchi.mp/7b1f219b71eb/splash-no-64">#64 - Sehnsucht</a>
+
+				<h3>September 2018</h3>
+				<li><a href="https://mailchi.mp/b6abf282a3e3/splash-no-63">#63 - Lonesome</a>
+				<li><a href="https://mailchi.mp/c355931f8348/splash-no-62">#62 - Work</a>
+				<li><a href="https://mailchi.mp/0524e8021ff1/splash-no-61">#61 - Trust the Process</a>
+				<li><a href="https://mailchi.mp/b41dc100a3ab/splash-no-60">#60 - Break (No Essay)</a>
+
+				<h3>August 2018</h3>
+				<li><a href="https://mailchi.mp/779b88ef6776/splash-no-59">#59 - Shift</a>
+				<li><a href="https://mailchi.mp/ef8f61ddd5c1/splash-no-58">#58 - Negative Visualization</a>
+				<li><a href="https://mailchi.mp/e3b85270c689/splash-no-57">#57 - Break <em>(No Essay)</em></a>
+				<li><a href="https://mailchi.mp/ab509e93014d/splash-no-56">#56 - New York, I Love You</a>
+				<li><a href="https://mailchi.mp/2ed706dc4d26/splash-no-55">#55 - Music Adjacent</a>
+
+				<h3>July 2018</h3>
+				<li><a href="https://mailchi.mp/cf03e063c1bb/splash-no-54">#54 - Hype Cycles</a>
+				<li><a href="https://mailchi.mp/60397dd4b142/splash-no-53">#53 - Me Writing About Creating Again</a>
+				<li><a href="https://mailchi.mp/6ee0ac41c36a/splash-no-52">#52 - Happiness?</a>
+				<li><strong><a href="https://mailchi.mp/20dcaee28c42/splash-no-51">#51 - A Meal to Remember</a></strong>
+
+				<h3>June 2018</h3>
+				<li><a href="https://mailchi.mp/fbba065e7378/splash-no-50">#50 - On Bad Content</a>
+				<li><a href="https://mailchi.mp/1745bc533893/splash-no-49">#49 - Alone</a>
+				<li><a href="https://mailchi.mp/8c52fc8e2fbf/splash-no-48">#48 - New York State of Mind</a>
+
+				<h3>May 2018</h3>
+				<li><a href="https://mailchi.mp/b903e932f291/splash-no-47">#47 - Nostalgia</a>
+				<li><a href="https://mailchi.mp/a37285a382c8/splash-no-46">#46 - Free Time</a>
+				<li><strong><a href="https://mailchi.mp/151d23ff589e/splash-no-45">#45 - Bhaiya</a></strong>
+				<li><a href="https://mailchi.mp/455c0ebcd275/splash-no-44">#44 - Local</a>
+				<li><a href="https://mailchi.mp/e0971f54a255/splash-no-43">#43 - Sequels! Reboots! Spinoffs!</a>
+
+				<h3>April 2018</h3>
+				<li><a href="https://mailchi.mp/3515a9fb41aa/splash-no-42">#42 - Blogging</a>
+				<li><a href="https://mailchi.mp/ae18d4d316c8/splash-no-41">#41 - Books! Books! Books!</a>
+				<li><a href="https://mailchi.mp/679db03eff56/splash-no-40">#40 - Video Games</a>
+				<li><a href="https://mailchi.mp/c5db3bb6dba5/splash-no-39">#39 - 100 Day Project</a>
+
+				<h3>March 2018</h3>
+				<li><a href="https://mailchi.mp/e76dacc0b826/splash-no-38">#38 - Another Off Week <em>No Essay</em></a>
+				<li><a href="https://mailchi.mp/c5dfb8010915/splash-no-37">#37 - #Employed</a>
+				<li><a href="https://mailchi.mp/c61080dcab5d/splash-no-36">#36 - I Love Kanye West</a>
+				<li><a href="https://mailchi.mp/67130d6e3052/splash-no-35">#35 - take some time to do something</a>
+				<li><a href="https://mailchi.mp/62e0ea178bbe/splash-no-34">#34 - Pokémon</a>
+
+				<h3>February 2018</h3>
+				<li><a href="https://mailchi.mp/4318802c1214/splash-no-33">#33 - Break <em>No Essay</em></a>
+				<li><a href="https://mailchi.mp/de8483b7c261/splash-no-32">#32 - Music Taste</a>
+				<li><a href="https://mailchi.mp/551daf9ce10e/splash-no-31">#31 - Football</a>
+				<li><a href="https://mailchi.mp/6e48fb5c3fb6/splash-no-30">#30 - Clothing</a>
+
+				<h3>January 2018</h3>
+				<li><a href="https://mailchi.mp/44801cd3bb09/splash-no-29">#29 - Intention</a>
+				<li><a href="https://mailchi.mp/5d41928db32e/splash-no-28">#28 - Illness</a>
+				<li><a href="https://mailchi.mp/4c24943e88cd/splash-no-27">#27 - Procrastination</a>
+				<li><a href="https://mailchi.mp/529414565c77/splash-no-26">#26 - New Year, New Me!!!</a>
+
+				<h3>December 2017</h3>
+				<li><a href="https://mailchi.mp/e65725082628/splash-no-25">#25 - Film</a>
+				<li><a href="https://mailchi.mp/54c6ac52f5f3/splash-no-24">#24 - Finding the Good in People</a>
+				<li><a href="https://mailchi.mp/b88b8a9b7c95/splash-no-23">#23 - Another Break <em>No Essay</em></a>
+				<li><a href="https://mailchi.mp/8499de1db6be/splash-no-22">#22 - Presence</a>
+
+				<h3>November 2017</h3>
+				<li><a href="https://mailchi.mp/1acc830d3576/splash-no-21">#21 - Be Yourself</a>
+				<li><a href="https://mailchi.mp/4a270a9b48d3/splash-no-20">#20 - Food and Memories</a>
+				<li><a href="https://mailchi.mp/c6ffa71a68ee/splash-no-19">#19 - School Lunch</a>
+				<li><a href="https://mailchi.mp/2fb93c92c0c9/splash-no-18">#18 - The Power of Design </a>
+
+				<h3>October 2017</h3>
+				<li><a href="https://mailchi.mp/da7df1e9347d/splash-no-17">#17 - Minimalism and Productivity</a>
+				<li><a href="https://mailchi.mp/25ece3e5aba5/splash-no-16">#16 - Privilege</a>
+				<li><a href="https://mailchi.mp/16967886b3de/splash-no-15">#15 - Art</a>
+				<li><a href="https://mailchi.mp/e098ba0f9342/splash-no-14">#14 - Hello! <em>No Essay</em></a>
+				<li><strong><a href="https://mailchi.mp/39fa297ba470/splash-no-13">#13 - Storytelling</a></strong>
+
+				<h3>September 2017</h3>
+				<li><a href="https://mailchi.mp/a89cc778e7db/splash-no-12">#12 - Job Search</a>
+				<li><a href="https://mailchi.mp/4b62e6323e90/splash-no-11">#11 - Mental Health</a>
+				<li><a href="https://mailchi.mp/010b64c6dfd8/splash-no-10">#10 - The Magic of Getting Things Done</a>
+				<li><a href="https://mailchi.mp/0ed09743af09/splash-no-9">#9 - Productivity</a>
+
+				<h3>August 2017</h3>
+				<li><a href="https://mailchi.mp/dd8fd7e6f247/splash-no-8">#8 - “Find Your Passion”</a>
+				<li><a href="https://mailchi.mp/bbe9bf3feb0f/splash-no-7">#7 - Return to Campus</a>
+				<li><a href="https://mailchi.mp/d4fe67251a0d/splash-no-6">#6 - To Taco Bell</a>
+				<li><a href="https://mailchi.mp/5986a407c036/splash-no5">#5 - Summery Summary</a>
+				<li><a href="https://mailchi.mp/75fc1635ef95/splash-no-4">#4 - Time</a>
+
+				<h3>July 2017</h3>
+				<li><a href="https://mailchi.mp/71a41acd7bdc/splash-no-42107">#3 - RIP Chester Bennington</a>
+				<li><a href="https://mailchi.mp/cb6a78a333a4/splash-no-30903">#2 - The End of a Teen</a>
+				<li><a href="https://mailchi.mp/813d10600554/splash-no-1">#1 - Welcome to my Newsletter!</a>	
+				</li>
+			</ul>
+
+
+	</div>
+</body>
+</html>
