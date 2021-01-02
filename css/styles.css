@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:500,500i,700,700i&display=swap');
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
 
 html,
 body {
@@ -22,16 +17,6 @@ body {
   background-color: #ffedd6;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-/*	  
-@media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
-  background-color: $body-bg-dark;
-  }*/
-}
-
-.container {
-  background-color: #ffedd6;
-  padding: 1rem;
 }
 
 a {
@@ -45,36 +30,26 @@ a:focus {
   text-decoration: underline;
 color: rgb(35,68,153);
 }
-/*	@media (prefers-color-scheme: dark) {
-    color: $dark;
-    }*/
   
 
-  strong {
-    color: inherit;
+strong {
+  color: inherit;
+}
+
+
+.container{
+  display: grid;
+  place-content: center;
+  gap: 1ch;
+}
+
+.center {
+  width: 60vw;
+}
+@media screen and (max-width: 768px) {
+  .center {
+    width: 100vw;
   }
-  
-/*@media (prefers-color-scheme: dark) {
-  color: $dark;
-  }*/
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-}
-
-
-
-
-.container {
-  max-width: 38rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
-  margin-right: auto;
 }
 
 footer {
